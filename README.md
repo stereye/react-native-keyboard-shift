@@ -1,17 +1,42 @@
 # react-native-keyboard-shift
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/FullStackCraft/react-native-keyboard-shift/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react-native-keyboard-shift.svg?style=flat)](https://www.npmjs.com/package/@fullstackcraft/react-native-keyboard-shift) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+This repo is a fork of [FullStackCraft/react-native-keyboard-shift
+](https://github.com/FullStackCraft/react-native-keyboard-shift). Tested on React Native 0.68+.
 
-# Example
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/stereye/react-native-keyboard-shift/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react-native-keyboard-shift.svg?style=flat)](https://www.npmjs.com/package/@stereye/react-native-keyboard-shift) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-_Snack coming soon_
+# Usage In Your Project
 
-Until then:
+Install and save this package as a dependency:
+
+```bash
+npm install --save @stereye/react-native-keyboard-shift
+```
+
+Import and use the KeyboardShift component:
+
+```tsx
+import '@stereye/react-native-keyboard-shift'
+// other imports
+
+export default function YourCoolKeyboardScreen () {
+
+    // Other logic, variables, etc.
+
+    return (
+        <KeyboardShift>
+            {/* Screen components */}
+        </KeyboardShift>
+    )
+}
+```
+
+# Compile and Develop
 
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/FullStackCraft/react-native-keyboard-shift
+git clone https://github.com/stereye/react-native-keyboard-shift
 ```
 
 2. Move into the example folder:
@@ -41,32 +66,6 @@ npm run ios
 ```
 
 Enjoy the juicy keyboard shifty-ness!
-
-# Usage In Your Project
-
-Install and save this package as a dependency:
-
-```bash
-npm install --save @fullstackcraft/react-native-keyboard-shift
-```
-
-Import and use the KeyboardShift component:
-
-```tsx
-import '@fullstackcraft/react-native-keyboard-shift'
-// other imports
-
-export default function YourCoolKeyboardScreen () {
-
-    // Other logic, variables, etc.
-
-    return (
-        <KeyboardShift>
-            {/* Screen components */}
-        </KeyboardShift>
-    )
-}
-```
 
 # ANOTHER Keyboard Shifting Component?!
 
